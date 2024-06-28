@@ -219,24 +219,23 @@ const RoomFlex = () => {
 
   const RoomFlex_text_1 = [`Enjoy`, `A`, `Luxury`, `Experience`];
   const RoomFlex_text_2 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet`,
+    ` Discover a unique blend of comfort, `,
+    `style, and convenience at our Apartments`,
+    `Whether you're traveling for leisure, business, or a special occasion, `,
+    ` Our space offers everything you need for an unforgettable stay.`,
   ];
 
-  const RoomFlex_text_3 = ["Flex your Life", "in our amazing", "Home Resort"];
+  const RoomFlex_text_3 = ["The Art of Living"];
   const RoomFlex_text_4 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+    `Our rooms are designed to be your home away from home. `,
+    `Make every moment a peaceful retreat from the outside world.`,
+    `Situated in the city of excellence, the highlights of Lagos are just a step away.`,
+    `Take advantage of our fully equipped apartments to binge your favorite shows.`,
+    
   ];
   const RoomFlex_text_5 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+    `Enjoy access to a fully equipped kitchen, high-speed Wi-Fi, and a cozy living area perfect for relaxing`,
+    `We promise a getaway you won't soon forget.`,
   ];
 
   return (

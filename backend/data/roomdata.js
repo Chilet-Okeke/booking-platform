@@ -4,7 +4,7 @@ export const apartmentDataList = [
     userid: "66476760ef11a9967074c22c",
     bedroom: 2,
     bathroom: 4,
-    city: "London",
+    city: "Lekki",
     images: [
       "/images/hazel_1.jpeg",
       "/images/hazel_2.jpeg",
@@ -20,7 +20,7 @@ export const apartmentDataList = [
     ],
     title: "Hazel",
     description:
-      "Family room, nice and spacious with a double and single bed with the fabulous shower room. You won’t want to leave.",
+      "24/7 Power",
     price: "120,000",
     cautionfee: "100,000",
     guests: 4,
