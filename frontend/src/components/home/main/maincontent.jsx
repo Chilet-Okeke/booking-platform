@@ -295,7 +295,7 @@ const RoomFlex = () => {
           </span>
         </h1>
       </div>
-      <div className="w-[90%] mx-auto gap-24 md:gap-24 py-20 md:items-center max-w-custom_1 grid lg:grid-cols-custom_4">
+      <div className="w-[90%] mx-auto gap-24 md:gap-24 py-12 md:items-center max-w-custom_1 grid lg:grid-cols-custom_4">
         <div
           ref={image_ref_1}
           className="w-full lg:w-[450px] h-[350px] md:h-[550px] relative"
@@ -433,12 +433,11 @@ const Collections = () => {
     margin: "0px 100px -120px 0px",
   });
 
-  const text_1 = [`Our Amazing`, `Home Resort`];
+  const text_1 = [`Come Stay`, `With Us`];
   const text_4 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+    `At Zyra&Stones Living, we prioritize your comfort and satisfaction. `,
+    `our commitment to cleanliness, attention to detail, and personalized `,
+    ` service ensures a stay that's as enjoyable as it is memorable.`,
   ];
 
   const servicesData = [
@@ -677,12 +676,12 @@ const RoomStructure = () => {
     margin: "0px 100px -120px 0px",
   });
 
-  const text_1 = [`The`, `Structure`];
+  const text_1 = [`The`, `View`];
   const text_4 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
+    `At Zyra&Stones Living, We believe that every stay should be an unforgettable experience. 
+    With our prime locations in the heart of Lagos, we offer the perfect blend of comfort, style and charm.`,
+    `We are passionate about creating a home away from home for our esteemed guests.`,
+    `This is why we strive to provide a space where our guests can relax, unwind and immerse themselves in the experiences we have to offer.`,
   ];
   return (
     <div data-scroll-section className="w-full flex py-20 flex-col gap-20">
@@ -690,7 +689,7 @@ const RoomStructure = () => {
         <div className="w-full flex items-center gap-4 relative">
           <div className="w-full relative grid md:grid-cols-2 gap-12">
             <img
-              src="/images/hazel_4.jpeg"
+              src="/images/haz  el_4.jpeg"
               alt=""
               className="object-cover md:min-h-[550px]"
             />
@@ -830,7 +829,7 @@ const RoomStructure = () => {
               <span className="text-xl font-booking_font4">
                 {room.title}
                 <span className="block text-sm text-grey font-normal font-booking_font">
-                  Lorem ipsum dolor sit amet
+                  Kitchenette
                 </span>
               </span>
             </motion.div>
@@ -1084,7 +1083,7 @@ const RoomsBanner = () => {
               className="text-xs pb-8 font-semibold uppercase block font-booking_font"
             >
               <span className="w-full gap-x-[5px] flex justify-start items-center flex-wrap ">
-                {["BUS", "STATION", "NEAR"].map((x, index) => {
+                {["COME", "JOIN", "US"].map((x, index) => {
                   return (
                     <span
                       key={index}
@@ -1129,11 +1128,12 @@ const RoomsBanner = () => {
                 animate={inView1 ? "animate" : "exit"}
                 className="block py-6 text-lg leading-[1.6] font-normal font-booking_font"
               >
-                Suspendisse commodo bibendum purus at hendrerit. Vivamus aliquam
-                bibendum fringilla. Praesent cursus felis nunc, quis vulputate
-                sapien posuere vitae. Aliquam erat volutpat. Cras egestas porta
-                massa eget pulvinar. Cras non enim et dui pharetra hendrerit
-                mattis.
+                Ready to experience the best of comfort? Book your 
+                stay today and start creating unforgettable memories.
+                We look forward to welcoming you and ensuring your time with us is nothing short of exceptional.
+                For inquiries or assistance, reach out to us at zyraandstones@gmail.com 
+                or +(234) 913 861 1598. Follow us on IG: @zyrastones_living for the latest news and special offers.
+                
               </motion.span>
             </span>
           </h1>
