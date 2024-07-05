@@ -31,7 +31,7 @@ const Hero = () => {
        gap-4"
       >
         <h1 className="text-white text-center leading-[1.3] text-5xl md:text-6xl font-booking_font4">
-          My Trips
+          My Reservation
         </h1>
         <div className="w-full absolute bottom-0 left-0 z-[35] flex items-center justify-center py-8">
           <div className="w-[90%] lg:w-[50%] mx-auto grid grid-cols-2  sm:grid-cols-4 items-center justify-center gap-4 max-w-custom_1 h-full">

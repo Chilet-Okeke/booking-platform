@@ -34,7 +34,7 @@ const Footer = () => {
           className="w-[90%] mx-auto max-w-custom_1 justify-between z-40 grid md:grid-cols-2 lg:grid-cols-3
       gap-8 md:gap-2"
         >
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col items-center justify-center gap-6">
             <img
               src="https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-20.png"
               alt=""
@@ -51,7 +51,7 @@ const Footer = () => {
             </h3>
           </div>
 
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col items-center justify-center gap-6">
             <img
               src="https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-19.png"
               alt=""
@@ -72,16 +72,16 @@ const Footer = () => {
               </Link>
             </h3>
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col items-center justify-center gap-6">
             <img
               src="https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-20.png"
               alt=""
               className="w-12 md:w-16"
             />
-            <h3 className="text-2xl flex flex-col gap-4 text-white font-booking_font4">
+            <h3 className="text-2xl flex flex-col items-center justify-center gap-4 text-white font-booking_font4">
               <span>
                 Contact Us
-                <span className="block leading-[1.5]  text-base font-booking_font text-grey">
+                <span className="block leading-[1.5]  text-sm font-booking_font text-grey">
                   BOOK A RESERVATION
                 </span>
               </span>

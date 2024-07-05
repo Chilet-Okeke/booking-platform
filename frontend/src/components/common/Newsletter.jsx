@@ -13,10 +13,10 @@ const Newsletter = () => {
       margin: "0px 100px -100px 0px",
     });
   const RoomFlex_text_2 = [
-    `Lorem ipsum dolor sit amet consectetur adipisicing elit. `,
-    `Ad,reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
-    `Ad, reprehenderit. Lorem ipsum dolor sit amet`,
+    `Sign up to our newsletter to get the latest news and updates from us. `,
+    `Stay connected as we bring the best deals and experiences right to your mailbox.
+     Simply input your email address below and hit the subscribe button. That's it!!!`,
+    `We'll only send you important updates so no need to worry about spam.`,
   ];
     const inView2 = useInView(button_ref, {
       margin: "0px 100px -100px 0px",

@@ -68,7 +68,7 @@ const CreateUserReservation = asyncHandler(async (req, res) => {
 
   if (availableRooms.length > 0) {
     res.status(404);
-    throw new Error("Room has alrady been booked");
+    throw new Error("This Room has already been booked for one or more days in your selected period!");
   }
 
   // Book the room

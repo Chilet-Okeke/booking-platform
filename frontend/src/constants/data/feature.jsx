@@ -14,22 +14,25 @@ import { MdOutlineFireplace } from "react-icons/md";
 import { FaFireExtinguisher } from "react-icons/fa6";
 import { CgSmartHomeRefrigerator } from "react-icons/cg";
 export const RoomFeaturesList = [
-  { title: "Home Screen", icon: <CgHomeScreen fontSize={"24px"} /> },
-  { title: "Bath Tub", icon: <PiBathtubFill fontSize={"24px"} /> },
-  { title: "Pets Allowed", icon: <FaDog fontSize={"24px"} /> },
+  { title: "Internet", icon: <CgHomeScreen fontSize={"24px"} /> },
+  { title: "Bathroom Shower", icon: <PiBathtubFill fontSize={"24px"} /> },  
   { title: "Free Parking", icon: <IoIosCar fontSize={"24px"} /> },
   {
     title: " Home Refrigerator",
     icon: <CgSmartHomeRefrigerator fontSize={"24px"} />,
   },
-  {
-    title: "Fire Extinguisher",
-    icon: <FaFireExtinguisher fontSize={"24px"} />,
-  },
   { title: "Lock Key", icon: <PiLockKeyOpenThin fontSize={"24px"} /> },
-  { title: "Fire place", icon: <MdOutlineFireplace fontSize={"24px"} /> },
-  { title: "Elevator Light", icon: <PiElevatorLight fontSize={"24px"} /> },
+  { title: "Equipped kitchenette", icon: <PiElevatorLight fontSize={"24px"} /> },
   { title: "Bath tub", icon: <MdBathtub fontSize={"24px"} /> },
+  { title: "Housekeeping", icon: <PiElevatorLight fontSize={"24px"} /> },
+  { title: "Laundry Services", icon: <PiElevatorLight fontSize={"24px"} /> },
+  { title: "Constant Power", icon: <PiElevatorLight fontSize={"24px"} /> },
+  
+  { title: "Smart TV", icon: <PiElevatorLight fontSize={"24px"} /> },
+  
+  
+  
+  
 ];
 
 export const RoomFeaturesList2 = [

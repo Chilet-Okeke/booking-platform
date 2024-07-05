@@ -102,17 +102,20 @@ export const Table = styled.div`
             color: #000;
 
             span {
+             
               &.danger {
                 color: #840a0a;
                 padding: 0.56rem 1rem;
                 border-radius: 4px;
-                background: #f3efe5;
+                background: #f3efe5;  
+                 min-width: 300px;
               }
               &.success {
                 color: #28a745;
                 padding: 0.56rem 1rem;
                 border-radius: 4px;
                 background: #dcf6d9;
+                 min-width: 300px;
               }
             }
           }

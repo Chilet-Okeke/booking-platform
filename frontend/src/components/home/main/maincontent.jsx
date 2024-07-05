@@ -449,14 +449,14 @@ const Collections = () => {
 
   const servicesData = [
     {
-      title: " Reception 24h / 7 Days",
+      title: "  Online Reservation",
       image: "/images/hazel_1.jpeg",
-      desc: "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec",
+      desc: "  Book your stay in minutes, Experience convenience at your fingertips with our seamless online reservation system.",
     },
     {
-      title: " Reservation Online",
+      title: " Smooth Check-in",
       image: "/images/hazel_2.jpeg",
-      desc: "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec",
+      desc: "  Get immediate confirmation of your booking, and enjoy a seamless process through to check-in.  ",
     },
   ];
   return (
@@ -630,25 +630,25 @@ const Collections = () => {
 
 const RoomStructure = () => {
   const roomService = [
-    {
+    { 
       icon: "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-16.png",
-      ddsc: "",
-      title: "Smart Key",
+      ddsc: "Gated estate and security",
+      title: "Gated Estate",
     },
     {
       icon: "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-15.png",
-      ddsc: "",
+      ddsc: "Ample storage room for luggage",
       title: "Store Luggage",
     },
     {
       icon: "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-17.png",
-      ddsc: "",
-      title: "Room Service",
+      ddsc: "Fully equipped kitchens to prepare meals",
+      title: "KItchenette",
     },
     {
       icon: "https://www.nicdarkthemes.com/themes/hotel-booking/wp/demo/hotel/wp-content/uploads/sites/2/2022/04/icon-18.png",
-      ddsc: "",
-      title: "Disinfection",
+      ddsc: "Standby housekeeping 24/7",
+      title: "Housekeeping",
     },
   ];
   const roomUtilities = [

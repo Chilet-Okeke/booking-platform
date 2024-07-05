@@ -21,7 +21,7 @@ const linkData = [
     path: "savedhomes",
   },
   {
-    title: "My Trips",
+    title: "My Reservation",
     path: "trips",
   },
   // {

@@ -27,7 +27,7 @@ const TableCard = ({ x, type }) => {
               </span>
             </span>
           </td>
-          <td>{x?.amount}</td>
+          <td>₦{Number(x?.amount).toLocaleString()}</td>
           <td>{x?.currency}</td>
           <td>
             {/* <span className="p-4">
@@ -35,11 +35,11 @@ const TableCard = ({ x, type }) => {
             </span> */}
 
             {x?.status === "CONFIRMED" ? (
-              <span className=" font-semibold text-xs font-booking_font_bold text-center success">
+              <span className=" font-semibold min-w-[400px] text-xs font-booking_font_bold text-center success">
                 {x?.status}
               </span>
             ) : (
-              <span className=" font-semibold text-xs font-booking_font_bold text-center danger">
+              <span className=" font-semibold min-w-[400px] text-xs font-booking_font_bold text-center danger">
                 {x?.status}
               </span>
             )}
@@ -88,14 +88,14 @@ const TableCard = ({ x, type }) => {
 
           <td>
             <span className="text-dark  font-semibold family1 text-light">
-              24th May 2024
+              {moment(x?.createdAt).format("DD MMM YYYY")}
             </span>
           </td>
           <td>
             <div className="flex items-center justify-center">
               <Link
-                // href={`/account/admin/dashboard/Manage_Customers/${x?._id}`}
-                href={"#"}
+                href={`/dashboard/profile/${x?._id}`}
+                // href={"#"}
                 className="w-12 h-12 rounded-full flex hover:shadow-xs hover:bg-[#ddd] items-center justify-center"
               >
                 <MdEdit />
@@ -142,7 +142,7 @@ const TableCard = ({ x, type }) => {
           {/* <td className=" font-semibold">{x?.address}</td> */}
 
           <td className=" font-semibold">{x?.city}</td>
-          <td className=" font-semibold">₦{x?.price}</td>
+          <td className=" font-semibold">₦{Number(x?.totalPrice).toLocaleString()}</td>
 
           <td className=" font-semibold">{startDate}</td>
 
@@ -180,17 +180,17 @@ const TableCard = ({ x, type }) => {
             </span> */}
 
             {x?.status === "CONFIRMED" ? (
-              <span className=" font-semibold text-xs font-booking_font_bold text-center success">
+              <span className=" font-semibold w-[300px] text-xs font-booking_font_bold text-center success">
                 {x?.status}
               </span>
             ) : (
-              <span className=" font-semibold text-xs font-booking_font_bold text-center danger">
+              <span className=" font-semibold w-[300px] text-xs font-booking_font_bold text-center danger">
                 {x?.status}
               </span>
             )}
           </td>
           <td className=" font-semibold">
-            <span>{x?.totalPrice}</span>
+            <span>{Number(x?.totalPrice).toLocaleString()}</span>
           </td>
           <td className=" font-semibold">
             <span>{x?.rooms?.city}</span>
